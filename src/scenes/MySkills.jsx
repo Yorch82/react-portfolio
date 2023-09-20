@@ -25,8 +25,11 @@ const MySkills = () => {
           </p>
           <LineGradient width='w-1/3' />
           <p className='mt-10 mb-7'>
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            I am a Full Stack Developer and Pentester. Attention to detail,
+            organizational and multitasking skills are some of my qualities.
+            Accustomed to working as a team throughout my professional career.
+            Passionate about technologies and a high level of curiosity to investigate
+            and keep learning.
           </p>
         </motion.div>
 
@@ -64,11 +67,12 @@ const MySkills = () => {
             </div>
             <div className='w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]' />
           </div>
-          <p className='mt-5'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita,
-            ea numquam! Asperiores accusantium quis eveniet nulla dolores ut
-            incidunt iste ipsa eligendi, autem ea adipisci impedit, esse illum.
-            Sit, accusantium?
+          <p className='mt-8 flex items-center justify-around'>
+            <i class="devicon-html5-plain text-6xl"></i>
+            <i class="devicon-css3-plain text-6xl"></i>
+            <i class="devicon-react-original text-6xl"></i>            
+            <i class="devicon-nextjs-original text-6xl"></i>
+          
           </p>
         </motion.div>
 
@@ -93,11 +97,11 @@ const MySkills = () => {
             </div>
             <div className='w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]' />
           </div>
-          <p className='mt-5'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita,
-            ea numquam! Asperiores accusantium quis eveniet nulla dolores ut
-            incidunt iste ipsa eligendi, autem ea adipisci impedit, esse illum.
-            Sit, accusantium?
+          <p className='mt-8 flex items-center justify-around'>
+            <i class="devicon-nodejs-plain text-5xl"></i>
+            <i class="devicon-mongodb-plain-wordmark text-7xl"></i>
+            <i class="devicon-mysql-plain-wordmark text-7xl"></i>
+            <i class="devicon-express-original text-7xl"></i>
           </p>
         </motion.div>
 
@@ -122,12 +126,10 @@ const MySkills = () => {
             </div>
             <div className='w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]' />
           </div>
-          <p className='mt-5'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita,
-            ea numquam! Asperiores accusantium quis eveniet nulla dolores ut
-            incidunt iste ipsa eligendi, autem ea adipisci impedit, esse illum.
-            Sit, accusantium?
-          </p>
+          <div className='mt-8 flex items-center justify-around'>
+            <a href="https://verified.elearnsecurity.com/certificates/828833e2-7d29-427c-9b3a-07172b430cd2" target="_blank" rel='noreferrer'><img src="assets/ejpt.png" width="85px" height="40px" alt="ejpt" /></a>
+            <a href="https://verified.elearnsecurity.com/certificates/12832473-1e61-4505-bf66-ad5a59696629" target="_blank" rel='noreferrer'><img src="assets/ecppt.png" width="85px" height="40px" alt="ecppt"/></a>
+          </div>
         </motion.div>
       </div>
     </section>
